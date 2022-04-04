@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div id="content-box">
+        <div id="pokemon-info">
+            <h2 id="pokemon-headline-name">BULBASAUR</h2>
+            <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png">
+            <div id="pokemon-types">
+                <span class="type-box grass">GRASS</span><span class="type-box poison">POISON</span>
+            </div>
+            <div id="pokemon-description"></div>
+            <div id="pokemon-base-stats">
+                <div class="base-stats">
+                    <span class="stat-name">hp</span>
+                    <span class="stat">45</span>
+                    <progress value="45" max="200"></progress>
+                </div>
+                <div class="base-stats">
+                    <span class="stat-name">attack</span>
+                    <span class="stat">49</span>
+                    <progress value="49" max="200"></progress>
+                </div>
+                <div class="base-stats">
+                    <span class="stat-name">defense</span>
+                    <span class="stat">49</span>
+                    <progress value="49" max="200"></progress>
+                </div>
+                <div class="base-stats">
+                    <span class="stat-name">special-attack</span>
+                    <span class="stat">65</span>
+                    <progress value="65" max="200"></progress>
+                </div>
+                <div class="base-stats">
+                    <span class="stat-name">special-defense</span>
+                    <span class="stat">65</span>
+                    <progress value="65" max="200"></progress>
+                </div>
+                <div class="base-stats">
+                    <span class="stat-name">speed</span>
+                    <span class="stat">45</span>
+                    <progress value="45" max="200"></progress>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pokemon-Liste-->
+        <div id="pokemon-list"></div>
+    </div>
+</body>
+
+</html>
